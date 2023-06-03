@@ -1,0 +1,14 @@
+name = "fortran-grace"
+version = "0.1.0"
+license = "ISC"
+author = "Philipp Engel"
+maintainer = "@interkosmos"
+copyright = "Copyright (c) 2023, Philipp Engel"
+description = "Fortran 2018 interfaces to the plotting tool Grace/XmGrace"
+keywords = ["grace", "xmgrace", "plotting"]
+
+[library]
+source-dir = "src"
+
+[install]
+library = true
