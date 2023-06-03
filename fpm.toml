@@ -7,8 +7,21 @@ copyright = "Copyright (c) 2023, Philipp Engel"
 description = "Fortran 2018 interfaces to the plotting tool Grace/XmGrace"
 keywords = ["grace", "xmgrace", "plotting"]
 
+[build]
+link = "grace_np"
+
 [library]
 source-dir = "src"
 
 [install]
 library = true
+
+[[example]]
+name = "gracec"
+source-dir = "examples/gracec/"
+main = "gracec.f90"
+
+[[example]]
+name = "gracef"
+source-dir = "examples/gracef/"
+main = "gracef.f90"
